@@ -4,12 +4,16 @@
   "description": "[ x ] npm init --force",
   "main": "index.js",
   "scripts": {
-    "test": "echo 'tested'"
+    "test": "echo 'tested'",
+    "start": "node server.js"
   },
   "devDependencies": {
     "moment": "^2.29.1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2"
+  }
 }
