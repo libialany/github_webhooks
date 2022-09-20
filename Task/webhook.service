@@ -1,0 +1,13 @@
+[Unit]
+Description=Github webhook
+After=network.target
+
+[Service]
+Environment=NODE_PORT=8000
+Type=simple
+User=libia
+ExecStart=/home/libia/.nvm/versions/node/v16.17.0/bin/node /home/libia/NodeWebhooks/webhook.js
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
