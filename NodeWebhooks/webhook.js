@@ -1,4 +1,4 @@
-var secret = "d0n7s4y!Opsl0v3iitt"
+var secret = "<put-your-secret>"
 var repo = "/home/libia/github_action2/"
 
 const http=require('http');
