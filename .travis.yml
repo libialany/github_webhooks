@@ -1,0 +1,8 @@
+languages: node_js
+node_js: 
+  - "16"
+script:
+  - echo "**build**"
+  - npm install
+  - echo 'Running test'
+  - npm run test
